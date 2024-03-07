@@ -1,7 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    baseURL: '/nuxt-static/'
+    baseURL: '/nuxt-static/',
+    buildAssetsDir: 'assets'
   },
   devServer: {
     port: 3300
